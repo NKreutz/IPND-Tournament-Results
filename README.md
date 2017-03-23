@@ -18,7 +18,8 @@ This project is written in Python and uses the PostgreSQL Database on a [Vagrant
     * Run the command `vagrant ssh`
 5. `cd` into tournament folder
 6. Run `psql -f tournament.sql` to create the Database
-6. Run the test suite to verify code using `python tournament_test.py`
+7. Run the test suite to verify code using `python tournament_test.py`
+8. Use Ctrl-D to Logout
 
 ### Usage
 
@@ -33,7 +34,7 @@ To run a Swiss-style tournament:
 7. Print `playerStandings()` to receive a list of current player standings
 8. Repeat steps 5 through 7 as needed
 9. Run `deleteMatches()` and `deletePlayers()` to clear the player board for the next tournament
-10. Ctrl-D to Logout
+
 
 ### Credits
 
